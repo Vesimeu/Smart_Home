@@ -27,3 +27,8 @@ if ("LivingRoom".temperature == 23) {
     "LivingRoom".turn_off_light();
 }
 "LivingRoom".status();
+
+
+
+Как Начать
+gcc -o smart_home_2 smarthome.tab.c lex.yy.c smart_objects.c -lm
