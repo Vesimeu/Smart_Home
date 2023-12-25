@@ -32,4 +32,5 @@ if ("LivingRoom".temperature == 23) {
 
 
 Как Начать
-gcc -o smart_home_2 smarthome.tab.c lex.yy.c smart_objects.c -lm
+gcc -o smart_home_2 smarthome.tab.c lex.yy.c smart_objects.c -lm -- скомпилировать проект.
+./smart_home_2 input.txt > output.txt 
