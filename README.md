@@ -12,22 +12,23 @@ Smart Home Scripting Language - это пользовательский язык
 - **Математические операции**: Поддержка основных математических операций для работы с числовыми данными.
 - **Вывод данных**: Возможность выводить информацию о состоянии объектов и переменных.
 
-## Примеры Использования
-
+![SmartHome Example]
 ```txt
 create_object "LivingRoom";
 "LivingRoom".set_temperature(23);
-int A = 20;
+int A == 20;
 print(A);
+A == A + 20
 "LivingRoom".turn_on_light();
 if ("LivingRoom".temperature == 23) { 
     "LivingRoom".turn_off_light();
     "LivingRoom".set_temperature(20);
 } else {
     "LivingRoom".turn_off_light();
+     print(5*25);
+
 }
 "LivingRoom".status();
-
 
 
 Как Начать
